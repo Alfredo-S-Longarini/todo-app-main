@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images//icon.svg">
+
+  <link rel="stylesheet" href="/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <script src="/js/main.js" defer></script>
+
+  <title>Frontend Mentor | Todo app</title>
+</head>
+
+<body class="containerBody">
+  <header class="banner">
+  </header>
+  <div class="background">
+
+    <div class="toDoList">
+      <div class="title">
+        <h1>TODO</h1>
+        <img src="./images/icon-sun.svg" alt="sunIcon">
+      </div>
+
+      <div id="inputTask">
+        <input type="text" name="newTask" id="newTask" placeholder="Nueva tarea">
+      </div>
+
+      <div id="listTasks">
+
+        <ul id="tasks">
+          <!-- Acá se mostrarán las tareas -->
+        </ul>
+
+        <div class="btnSection">
+          <p id="tasksActive">0 items left</p>
+
+          <div class="btnActions">
+            <button id="btnAll">All</button>
+            <button id="btnActive">Active</button>
+            <button id="btnCompleted">Completed</button>
+          </div>
+
+          <button id="btnClearAll">Clear Completed</button>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+</body>
+
+</html>
